@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.flex-container div {
+    border: 1px solid red
+}
+.container {
+    height: 100px;
+    flex-direction: column;
+}
+
+button {
+    width: fit-content;
+    margin: auto;
+}
+
+#title-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
