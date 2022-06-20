@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Fascinate' rel='stylesheet'>
     <script src="script.js" defer></script>
     <title>Teacher-jokes-app</title>
 </head>
@@ -12,13 +15,18 @@
 <div class="flex-container">
     <div id="title-div">
         <h1 id="title">Teacher Jokes</h1>
-        <p id="directions">Click below to raise your classroom humor level</p>
+        <p id="directions">Jokes that are out of this world</p>
     </div>
     <div id="jokes-container" class="container">
+        <h2 id="jokes-text" class="text-center"></h2>
     </div>
-    <button id="jokes-button">click for joke</button>
-
-
+    
+    <button id="jokes-button" class="btn btn-primary">click for joke</button>
+   
+ 
+    <footer id="credits" class="text-center">
+        <p>Jokes credit to: https://github.com/amoudgl/short-jokes-dataset. Website dedicated to Josh Kendrick who needs some new material</p>
+    </footer>
 </div>
 
 
