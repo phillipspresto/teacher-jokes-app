@@ -1,6 +1,6 @@
 body {
-    font-family: "Fascinate";
-    background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg");
+    font-family: "Press Start 2P", cursive;
+    background-image: url("https://www.pcclean.io/wp-content/uploads/2020/4/I7FjYn.jpg");
     background-size: cover;
     color: white;
     padding: 1rem;
@@ -9,7 +9,7 @@ body {
 }
 
 #title {
-    font-size: 7em;
+    font-size: 4em;
     text-shadow: 1px 1px 1px #919191,
     1px 2px 1px #919191,
     1px 3px 1px #919191,
